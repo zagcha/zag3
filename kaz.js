@@ -53,6 +53,35 @@ div#users img.fl.ustat {
     width: 39px!important;
     height: 39px!important;
 }
+
+.emoi {
+    width: auto;
+    max-width: -webkit-fill-available
+}
+
+.uzr.fl.corner.borderg.hmsg.mm {
+    background-color: #fff!important
+}
+
+.bgg.border.corner {
+    right: 1px
+}
+
+.callnot {
+    position: absolute!important;
+    top: 1px!important;
+    margin-left: 0!important;
+    left: 1px
+}
+
+div#tlogins .fl.mini.u-msg {
+    display: none;
+    display: none
+}
+
+div#mic {
+    background-color: #f2f2f2
+}
 </style>`).insertBefore('body');
 $( "button.btn.btn-primary" ).css( "border-radius", "15px 15px 15px 15px" )
 $(".label-primary").css("border-radius","35px 0px 35px 0px")
